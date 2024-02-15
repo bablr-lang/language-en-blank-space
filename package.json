@@ -22,7 +22,6 @@
     "@babel/runtime": "^7.22.15",
     "@bablr/helpers": "github:bablr-lang/helpers#7ce4dee0580431b2511bffc17ddd0ca7b1c64502",
     "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786",
-    "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
@@ -32,7 +31,6 @@
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@bablr/boot": "github:bablr-lang/boot#64184e83c8ef575d7e9bcf2b5417f585382ce09a",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
-    "@bablr/vm": "0.1.16",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^8.47.0",

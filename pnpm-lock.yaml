@@ -11,9 +11,6 @@ dependencies:
   '@bablr/agast-helpers':
     specifier: github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786
     version: github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786
-  '@bablr/grammar':
-    specifier: github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2
-    version: github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
   '@bablr/helpers':
     specifier: github:bablr-lang/helpers#7ce4dee0580431b2511bffc17ddd0ca7b1c64502
     version: github.com/bablr-lang/helpers/7ce4dee0580431b2511bffc17ddd0ca7b1c64502
@@ -40,9 +37,6 @@ devDependencies:
   '@bablr/eslint-config-base':
     specifier: github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
     version: github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e(eslint@8.56.0)
-  '@bablr/vm':
-    specifier: 0.1.16
-    version: 0.1.16
   babel-plugin-macros:
     specifier: 3.1.0
     version: 3.1.0
@@ -441,29 +435,6 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: true
 
-  /@bablr/boot-helpers@0.1.3:
-    resolution: {integrity: sha512-RrIVJqmQHH0ka0ZzdFG84bXskJVRZ3DBM82l5mN3orhbkbEuGUKVWJ+vKtIKOskrRcqhWCtd588BbZdZQG9/TQ==}
-    engines: {node: '>=12.0.0'}
-    dev: true
-
-  /@bablr/regex-vm@0.4.0:
-    resolution: {integrity: sha512-1uuExIXXHahGiMK5qG7OXjZpw2pXDmHTy8v6t6hl4V5zSGvuexGhjnlEBWQnQ/8O/E8QsmeNTeZ1wp+/CEfCAg==}
-    engines: {node: '>=12.0.0'}
-    dependencies:
-      '@iter-tools/imm-stack': 1.1.0
-      functional-red-black-tree: 1.0.1
-      iter-tools-es: 7.5.3
-    dev: true
-
-  /@bablr/vm@0.1.16:
-    resolution: {integrity: sha512-EqXnwAB+mRU54atccAFwm9vIa1BOAO/A/ursKvY3ilFzZsg2Nmx1F4POSbR7nOlHIBUXHnIMlIZosXLezSpuEw==}
-    dependencies:
-      '@bablr/boot-helpers': 0.1.3
-      '@bablr/regex-vm': 0.4.0
-      '@iter-tools/imm-stack': 1.1.0
-      iter-tools-es: 7.5.3
-    dev: true
-
   /@eslint-community/eslint-utils@4.4.0(eslint@8.56.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -523,6 +494,7 @@ packages:
 
   /@iter-tools/imm-stack@1.1.0:
     resolution: {integrity: sha512-5wCL8xt4sZ3v0buB3HrzqL2FTkaYB+ZVwkACo1G80zXWWG/8tSGgRiz7EQSkgDRrPQtpoGXRdOKW+GAVmG/Uyg==}
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -1381,10 +1353,6 @@ packages:
       define-properties: 1.2.1
       es-abstract: 1.22.3
       functions-have-names: 1.2.3
-    dev: true
-
-  /functional-red-black-tree@1.0.1:
-    resolution: {integrity: sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==}
     dev: true
 
   /functions-have-names@1.2.3:
@@ -2377,14 +2345,6 @@ packages:
       - eslint-import-resolver-webpack
       - supports-color
     dev: true
-
-  github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/grammar/tar.gz/a280340581846073caf47fd531e7f365f4aef5f2}
-    name: '@bablr/grammar'
-    version: 0.0.0
-    dependencies:
-      iter-tools-es: 7.5.3
-    dev: false
 
   github.com/bablr-lang/helpers/7ce4dee0580431b2511bffc17ddd0ca7b1c64502:
     resolution: {tarball: https://codeload.github.com/bablr-lang/helpers/tar.gz/7ce4dee0580431b2511bffc17ddd0ca7b1c64502}
