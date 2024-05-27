@@ -9,28 +9,27 @@
   "exports": {
     ".": "./lib/grammar.generated.js"
   },
-  "files": ["lib/**/*.js"],
+  "files": [
+    "lib/**/*.js"
+  ],
   "sideEffects": false,
   "scripts": {
-    "test": "node test/test.js",
-    "generate": "babel lib/grammar.js --out-file lib/grammar.generated.js",
-    "clean": "rm lib/grammar.generated.js"
+    "build": "macrome build",
+    "watch": "macrome watch",
+    "clean": "macrome clean"
   },
   "dependencies": {
     "@babel/runtime": "^7.22.15",
-    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#f5e73888656c091c5a9fd1963146ac3bf3426628",
-    "@bablr/helpers": "github:bablr-lang/bablr-helpers#8ded1818aef49ccc3c90783aa94516bd6da07050",
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#5a704bd826ed2e8ab6ef0419571433996cea2894",
+    "@bablr/agast-vm-helpers": "0.1.0",
+    "@bablr/helpers": "0.15.0",
+    "@bablr/agast-helpers": "0.1.0",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
-    "@babel/cli": "7.22.15",
-    "@babel/core": "7.22.20",
-    "@babel/plugin-proposal-decorators": "7.22.15",
-    "@babel/plugin-transform-runtime": "^7.22.15",
-    "@bablr/boot": "github:bablr-lang/boot#de245b2262eb69b64a4be5edbb621b93e2b1e65e",
+    "@bablr/macrome": "0.1.0",
+    "@bablr/macrome-generator-bablr": "0.1.1",
+    "@bablr/boot": "0.2.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
-    "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^8.47.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
