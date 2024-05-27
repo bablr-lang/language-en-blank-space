@@ -22,8 +22,7 @@
     "@babel/runtime": "^7.22.15",
     "@bablr/agast-vm-helpers": "0.1.0",
     "@bablr/helpers": "0.15.0",
-    "@bablr/agast-helpers": "0.1.0",
-    "iter-tools-es": "^7.5.3"
+    "@bablr/agast-helpers": "0.1.0"
   },
   "devDependencies": {
     "@bablr/macrome": "0.1.0",
