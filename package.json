@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@bablr/macrome": "0.1.3",
-    "@bablr/macrome-generator-bablr": "0.3.1",
+    "@bablr/macrome-generator-bablr": "0.3.2",
     "@bablr/boot": "0.4.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
     "enhanced-resolve": "^5.12.0",
